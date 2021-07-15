@@ -33,7 +33,7 @@ typewriter
   .changeDelay(20)
   .typeString("I am Yoann ANTHONY,")
   .pauseFor(300)
-  .typeString("<strong> Developer </strong>")
+  .typeString("<strong> Developer, </strong>")
   .pauseFor(300)
   .typeString("<strong>Full-Stack</strong> !")
   .pauseFor(1000)
