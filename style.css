@@ -21,7 +21,7 @@ body {
   width: 300px;
   height: 100vh;
   min-height: 800px;
-  background: #333;
+  background: #0d2730;
   position: fixed;
   top: 0;
   left: -300px;
@@ -70,7 +70,7 @@ body {
 .blocs-menu:nth-child(1) {
   width: 100%;
   height: 25%;
-  background: #333;
+  background: #0d2730;
 }
 
 .avatar {
@@ -79,7 +79,7 @@ body {
   height: 150px;
   border-radius: 50%;
   position: relative;
-  box-shadow: 26px 26px 53px #292929, -26px -26px 53px #3d3d3d;
+  box-shadow: 26px 26px 53px #292929, -26px -26px 53px #123440;
 }
 
 /* pour centrer parfaitement */
@@ -137,7 +137,7 @@ body {
     height: 70px;
     border: 1px solid #f1f1f1;
     border-radius: 50%;
-    background: #333;
+    background: #0d2730;
     position: fixed;
     top: 10px;
     left: 10px;
@@ -262,7 +262,7 @@ h1 {
 .media {
   width: 60px;
   height: 60px;
-  background: #333;
+  background: #0d2730;
   border-radius: 50%;
   margin-right: 10px;
   display: flex;
@@ -273,7 +273,7 @@ h1 {
 
 .media2 {
   background: transparent;
-  border: 2px solid #333;
+  border: 2px solid #0d2730;
 }
 
 .icon-media {
@@ -291,8 +291,8 @@ h1 {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  box-shadow: 0 0 0 0 #333;
-  background: #333;
+  box-shadow: 0 0 0 0 #0d2730;
+  background: #0d2730;
   animation: pulse 1.3s infinite;
 }
 @keyframes pulse {
@@ -448,8 +448,8 @@ h1 {
   width: 100%;
   position: relative;
   overflow: hidden;
-  border-top: 1px dashed #333;
-  border-bottom: 1px dashed #333;
+  border-top: 1px dashed #0d2730;
+  border-bottom: 1px dashed #0d2730;
   /* color: #e7e7e7; */
   color: #e7e7e7;
 }
@@ -620,7 +620,7 @@ h1 {
   width: 420px;
   height: 400px;
   background: #f0f2f0;
-  color: #333;
+  color: #0d2730;
   transition: transform 0.3s ease-out;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -656,9 +656,9 @@ h1 {
   height: 50px;
   line-height: 50px;
   text-align: center;
-  color: #333;
+  color: #0d2730;
   text-decoration: none;
-  border: 1px solid #333;
+  border: 1px solid #0d2730;
   border-radius: 5px;
   cursor: pointer;
   position: relative;
@@ -720,7 +720,7 @@ h1 {
   align-items: center;
   flex-direction: column;
   padding-bottom: 200px;
-  border-bottom: 1px dashed #333;
+  border-bottom: 1px dashed #0d2730;
   background: #485563;
   background-image: linear-gradient(to right, #29323c, #485563);
   color: #f1f1f1;
@@ -851,7 +851,7 @@ h1 {
   text-align: center;
   margin: 70px 0;
   font-size: 40px;
-  color: #333;
+  color: #0d2730;
 }
 .cont-exp-travail {
   position: relative;
@@ -873,7 +873,7 @@ h1 {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 1px solid #333;
+  border: 1px solid #0d2730;
   background: #f1f1f1;
   display: flex;
   justify-content: center;
@@ -894,7 +894,7 @@ h1 {
   height: 200px;
   margin-bottom: 37.5px;
   cursor: pointer;
-  border: 1px solid #333;
+  border: 1px solid #0d2730;
   position: relative;
 }
 .contenu-bloc {
@@ -977,8 +977,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 1px dashed #333;
-  border-bottom: 1px dashed #333;
+  border-top: 1px dashed #0d2730;
+  border-bottom: 1px dashed #0d2730;
 }
 .txt-par {
   font-size: 30px;
@@ -1022,7 +1022,7 @@ h1 {
 }
 .section-contact h2 {
   text-align: center;
-  color: #333;
+  color: #0d2730;
   font-size: 48px;
   font-weight: 400;
   margin-bottom: 50px;
@@ -1105,7 +1105,7 @@ textarea:focus {
     rgb(134, 134, 134)
   );
   background-size: 200%;
-  color: #333;
+  color: #0d2730;
   font-size: 24px;
   font-weight: 500;
   cursor: pointer;
