@@ -287,7 +287,7 @@
     </section>
 
     <section class="section-range" id="range">
-      <h2 class="titre-exp">Mes Compétences</h2>
+      <h2 class="titre-exp">My Skills</h2>
       <div class="grille-skill">
         <div class="range-cont">
           <p class="label-skill">HTML - CSS</p>
@@ -297,7 +297,7 @@
         </div>
         <div class="range-cont">
           <p class="label-skill">Javascript</p>
-          <p class="number-skill">90%</p>
+          <p class="number-skill">65%</p>
           <div class="barre-skill b2"></div>
           <div class="barre-grise"></div>
         </div>
@@ -310,19 +310,19 @@
 
         <div class="range-cont">
           <p class="label-skill">Github</p>
-          <p class="number-skill">90%</p>
+          <p class="number-skill">70%</p>
           <div class="barre-skill b4"></div>
           <div class="barre-grise"></div>
         </div>
         <div class="range-cont">
-          <p class="label-skill">React</p>
-          <p class="number-skill">60%</p>
+          <p class="label-skill">UX / UI</p>
+          <p class="number-skill">90%</p>
           <div class="barre-skill b5"></div>
           <div class="barre-grise"></div>
         </div>
         <div class="range-cont">
           <p class="label-skill">Python</p>
-          <p class="number-skill">20%</p>
+          <p class="number-skill">10%</p>
           <div class="barre-skill b6"></div>
           <div class="barre-grise"></div>
         </div>
@@ -332,7 +332,7 @@
     <!-- Section Experience -->
 
     <section class="travail-exp" id="exp">
-      <h2 class="titre-travail-exp">Mes Experiences</h2>
+      <h2 class="titre-travail-exp">My (fantasy) Experiences</h2>
 
       <div class="cont-exp-travail">
         <div class="barre-verticale">
@@ -378,7 +378,7 @@
 
           <div class="bloc bloc3">
             <div class="contenu-bloc">
-              <p class="titre-section-bloc">Google, 2023</p>
+              <p class="titre-section-bloc">Instagram, 2023</p>
               <p class="txt-section">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
                 similique. Officia, quidem consectetur? Dolore velit nostrum ea
@@ -389,7 +389,7 @@
 
           <div class="bloc bloc4">
             <div class="contenu-bloc">
-              <p class="titre-section-bloc">Google, 2024</p>
+              <p class="titre-section-bloc">Apple, 2024</p>
               <p class="txt-section">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
                 similique. Officia, quidem consectetur? Dolore velit nostrum ea
@@ -404,34 +404,48 @@
     <!-- Section Parallax -->
 
     <div class="section-parallax">
-      <p class="txt-par">X Tasses de café</p>
-      <p class="txt-par">X projets</p>
-      <p class="txt-par">X Clients</p>
+      <p class="txt-par">137 tea cups</p>
+      <p class="txt-par">21 projects</p>
+      <p class="txt-par">Countless happy users and/or seeds</p>
     </div>
 
     <!-- Section Contact -->
 
     <section class="section-contact" id="contact">
-      <h2><strong>Rentrons en contact</strong></h2>
+      <h2><strong>Let's get in touch</strong></h2>
 
       <div class="container-form">
-        <form class="form-bloc">
+        <form
+          class="form-bloc"
+          action="https://formspree.io/f/xvodywqb"
+          method="POST"
+        >
           <div class="form-group">
-            <label for="prenom">Prénom</label>
+            <label for="prenom">First name</label>
             <input type="text" required maxlength="16" id="prenom" />
           </div>
 
           <div class="form-group">
-            <label for="nom">Nom</label>
+            <label for="nom">Last Name</label>
             <input type="text" required maxlength="16" id="nom" />
           </div>
 
           <div class="form-group">
-            <textarea id="txt" placeholder="Votre Message" required></textarea>
+            <label for="email"> Your email</label>
+            <input type="email" name="_replyto" id="email" />
           </div>
 
           <div class="form-group">
-            <input type="submit" value="Envoyer" class="btn-submit" />
+            <textarea
+              id="txt"
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <input type="submit" value="Send" class="btn-submit" />
           </div>
         </form>
       </div>
