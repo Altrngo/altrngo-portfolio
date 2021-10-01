@@ -605,6 +605,15 @@ h1 {
   font-size: 50px;
   padding-left: 300px;
 }
+
+.sous-titre-port {
+  text-align: center;
+  padding: 50px 0;
+  margin: 20px;
+  font-size: 20px;
+  padding-left: 300px;
+}
+
 .cont-portfolio {
   width: 100%;
   height: auto;
@@ -650,7 +659,8 @@ h1 {
 .cont-img-port-wip img {
   width: 100%;
   height: auto;
-  opacity: 1;
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
 }
 
 .item h3 {
@@ -660,6 +670,24 @@ h1 {
 
 .item p {
   padding: 10px 10px 0;
+}
+
+.btn-projets-wip {
+  display: block;
+  margin: 10px;
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #0d2730;
+  text-decoration: none;
+  border: 1px solid #0d2730;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  background-color: #e0e0e0;
+  pointer-events: none;
 }
 
 .btn-projets {
@@ -703,10 +731,19 @@ h1 {
     margin: 50px 0 70px 0;
     padding-left: 0;
   }
+  .sous-titre-port {
+    font-size: 15px;
+    margin: 50px 0 70px 0;
+    padding-left: 0;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .titre-port {
+    margin: 10px 0;
+    padding: 30px 0;
+  }
+  .sous-titre-port {
     margin: 10px 0;
     padding: 30px 0;
   }
