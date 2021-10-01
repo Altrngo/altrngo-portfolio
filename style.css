@@ -84,11 +84,13 @@ body {
 
 /* pour centrer parfaitement */
 .avatar img {
-  width: 100px;
+  width: 140px;
+  height: 140px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border-radius: 50%;
 }
 
 .logo-cercle {
